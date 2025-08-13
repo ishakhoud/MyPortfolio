@@ -1,0 +1,79 @@
+*{
+    margin:0%;
+    padding: 0%;
+    
+    
+}
+.custom-navbar{
+    background-color: rgb(237, 226, 236);
+}
+/* .py-5{
+    /* height:250px ;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;*/ 
+    
+
+ */
+.img{
+    height: 90%;
+    width:20%;
+    background-color: black;
+    background-image: url("myself.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+.img:hover{
+    height: 250px;
+    width:250px;
+}
+
+#a{
+    color: rgb(98, 110, 120);
+}
+.ourself{
+    margin-top: 60px;
+    margin-bottom: 0%;
+} 
+/* .project{
+    height:250px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.p1{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+button{
+    background-color: black;
+    font-size: 20px;
+    color:aliceblue;
+    width: 60%;
+
+}
+.btn:hover{
+    background-color: blue;
+    
+}
+.p1:hover{
+    background-color:palevioletred ;
+    color: aliceblue;
+}
+.text:hover{
+    color: blue;
+}
+.card{
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
